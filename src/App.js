@@ -2,14 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const greeting = "Это тестовый проект ФИО";
-
-  console.log('This is App ');
+  const greeting = "Это тестовый проект Казарян О.П";
   return (
     <div className="App">
-     <header className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-         {greeting}
+        {greeting}
       </header>
     </div>
   );
