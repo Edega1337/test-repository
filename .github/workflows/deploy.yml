@@ -14,16 +14,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "16" # Укажите версию Node.js, которая требуется для вашего приложения
+          node-version: "16" # Версия node
 
       - name: Install dependencies
-        run: npm install # Замените на 'yarn' или другой пакетный менеджер, если нужно
+        run: npm install
 
       - name: Build the project
-        run: npm run build # или 'npm run build' в зависимости от вашей сборки
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ../src # Путь к директории вашего собранного проекта, замените на актуальный
+          publish_dir: ../src
