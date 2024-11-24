@@ -7,9 +7,10 @@ function App() {
   console.log('This is App ');
   return (
     <div className="App">
-     <header className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-         {greeting}
+        {greeting}
+        <h1>Hi man, lab-5</h1>
       </header>
     </div>
   );
