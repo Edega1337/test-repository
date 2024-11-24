@@ -1,7 +1,10 @@
 {
-"branches": ['main'],
-
-"plugins": ['@semantic-release/commit-analyzer', '@semantic-release/release-notes-
-generator', '@semantic-release/github']
-
+  "branches": [
+    "feature/fear-of-all-developers"
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github"
+  ]
 }
