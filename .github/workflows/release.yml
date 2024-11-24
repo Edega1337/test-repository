@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - feature/fear-of-all-developers
 permissions:
   contents: read # for checkout
 jobs:
