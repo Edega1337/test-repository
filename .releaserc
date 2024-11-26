@@ -1,6 +1,6 @@
 {
   "branches": [
-    "feature/fear-of-all-developers"
+    "main"
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
