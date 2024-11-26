@@ -14,13 +14,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "16" # Версия node
+          node-version: "20" # Версия node
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build the project
-        run: npm run build
+      - name: Run the project
+        run: npm run
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
