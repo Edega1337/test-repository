@@ -1,51 +1,70 @@
-# Тестовый React проект
+# Getting Started with Create React App
 
-Данный проект был создан с помощью Create React App.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Доступные скрипты
+## Available Scripts
 
-В директории проекта вы можете запустить следующие команды:
+In the project directory, you can run:
 
 ### `npm start`
 
-Запускает приложение в режиме разработки.
-Откройте http://localhost:3000, чтобы просмотреть его в браузере.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Страница будет перезагружаться при внесении изменений.
-Вы также увидите любые ошибки линтера в консоли.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### `npm test`
 
-Запускает тестовый раннер в интерактивном режиме.
-Подробности о запуске тестов можно найти в разделе запуск тестов.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Собирает приложение для продакшена в папке build.
-Он корректно объединяет React в режиме продакшена и оптимизирует сборку для лучшей производительности.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Сборка минифицирована, а имена файлов включают хеши.
-Ваше приложение готово к деплою!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### `npm run lint`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Запускает линтер для проверки кода на соответствие стандартам и общепринятым правилам стиля.
-Если в вашем коде обнаружены какие-либо ошибки или предупреждения, они будут отображены в консоли.
-Это поможет вам устранить проблемы в коде и сделать его более чистым и согласованным.
+### `npm run eject`
 
-## Гайд по установке Node и запуску проекта
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 1. Установка Node.js:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Перейдите на официальный сайт Node.js.
-- Скачайте и установите LTS версию Node.js, соответствующую вашей операционной системе.
-- Введите npm -v, чтобы проверить установленную версию менеджера пакетов npm.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### 2. Запуск проекта:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- Откройте директорию проекта в терминале или командной строке.
-- Введите npm install для установки всех зависимостей проекта.
-- После завершения установки, введите npm start для запуска проекта в режиме разработки.
-- Казарян О.П
-- Первый коммит файла, docs
-- Второй коммит файла, chore
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
